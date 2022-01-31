@@ -13,7 +13,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        if let navControler = self.navigationController{
+            var vcs = navControler.viewControllers
+            if let index = vcs.firstIndex(of: self){
+                vcs.remove(at: index)
+                navControler.setViewControllers(vcs, animated: false)
+            }
+        }
+    }
 
 }
 

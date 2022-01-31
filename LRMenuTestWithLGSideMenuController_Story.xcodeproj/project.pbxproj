@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		456CD21FCB66A39CB424D61B /* Pods_LRMenuTestWithLGSideMenuController_Story_LRMenuTestWithLGSideMenuController_StoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE046D9E834A2101879358E /* Pods_LRMenuTestWithLGSideMenuController_Story_LRMenuTestWithLGSideMenuController_StoryUITests.framework */; };
 		9717552627A4019A002A6E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717552527A4019A002A6E7B /* AppDelegate.swift */; };
 		9717552827A4019A002A6E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717552727A4019A002A6E7B /* SceneDelegate.swift */; };
 		9717552A27A4019A002A6E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717552927A4019A002A6E7B /* ViewController.swift */; };
@@ -17,6 +18,16 @@
 		9717554027A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717553F27A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryTests.swift */; };
 		9717554A27A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717554927A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryUITests.swift */; };
 		9717554C27A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717554B27A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryUITestsLaunchTests.swift */; };
+		9717556327A40242002A6E7B /* TxtImgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717555927A40242002A6E7B /* TxtImgCell.swift */; };
+		9717556427A40242002A6E7B /* TxtImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9717555A27A40242002A6E7B /* TxtImgCell.xib */; };
+		9717556527A40242002A6E7B /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717555C27A40242002A6E7B /* LeftMenuVC.swift */; };
+		9717556627A40242002A6E7B /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717555D27A40242002A6E7B /* SlideMenuController.swift */; };
+		9717556727A40242002A6E7B /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717555E27A40242002A6E7B /* RootVC.swift */; };
+		9717556827A40242002A6E7B /* RightMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9717555F27A40242002A6E7B /* RightMenuVC.swift */; };
+		9760667427A7E131000C0670 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9760667227A7E131000C0670 /* DetailVC.swift */; };
+		9760667527A7E131000C0670 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9760667327A7E131000C0670 /* DetailVC.xib */; };
+		AF640A899D988F69C881133C /* Pods_LRMenuTestWithLGSideMenuController_StoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B60DAA683F9F3CE816ECF93 /* Pods_LRMenuTestWithLGSideMenuController_StoryTests.framework */; };
+		B7986195D822093865D916CF /* Pods_LRMenuTestWithLGSideMenuController_Story.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3A0C3E63DCD3AAA6177BB3 /* Pods_LRMenuTestWithLGSideMenuController_Story.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2156DAC3E19F45E40C5C98E7 /* Pods-LRMenuTestWithLGSideMenuController_Story.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRMenuTestWithLGSideMenuController_Story.debug.xcconfig"; path = "Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story/Pods-LRMenuTestWithLGSideMenuController_Story.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE046D9E834A2101879358E /* Pods_LRMenuTestWithLGSideMenuController_Story_LRMenuTestWithLGSideMenuController_StoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRMenuTestWithLGSideMenuController_Story_LRMenuTestWithLGSideMenuController_StoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE6218DECCFD2E77280F352 /* Pods-LRMenuTestWithLGSideMenuController_StoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRMenuTestWithLGSideMenuController_StoryTests.release.xcconfig"; path = "Target Support Files/Pods-LRMenuTestWithLGSideMenuController_StoryTests/Pods-LRMenuTestWithLGSideMenuController_StoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EEF5D09B139BFAFA04BF952 /* Pods-LRMenuTestWithLGSideMenuController_Story.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRMenuTestWithLGSideMenuController_Story.release.xcconfig"; path = "Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story/Pods-LRMenuTestWithLGSideMenuController_Story.release.xcconfig"; sourceTree = "<group>"; };
+		5B3A0C3E63DCD3AAA6177BB3 /* Pods_LRMenuTestWithLGSideMenuController_Story.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRMenuTestWithLGSideMenuController_Story.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9717552227A4019A002A6E7B /* LRMenuTestWithLGSideMenuController_Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRMenuTestWithLGSideMenuController_Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9717552527A4019A002A6E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9717552727A4019A002A6E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,18 @@
 		9717554527A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRMenuTestWithLGSideMenuController_StoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9717554927A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRMenuTestWithLGSideMenuController_StoryUITests.swift; sourceTree = "<group>"; };
 		9717554B27A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRMenuTestWithLGSideMenuController_StoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9717555927A40242002A6E7B /* TxtImgCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxtImgCell.swift; sourceTree = "<group>"; };
+		9717555A27A40242002A6E7B /* TxtImgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TxtImgCell.xib; sourceTree = "<group>"; };
+		9717555C27A40242002A6E7B /* LeftMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		9717555D27A40242002A6E7B /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		9717555E27A40242002A6E7B /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		9717555F27A40242002A6E7B /* RightMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuVC.swift; sourceTree = "<group>"; };
+		9760667227A7E131000C0670 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		9760667327A7E131000C0670 /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		9B60DAA683F9F3CE816ECF93 /* Pods_LRMenuTestWithLGSideMenuController_StoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRMenuTestWithLGSideMenuController_StoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16D2C974E11F5D7622E326C /* Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.release.xcconfig"; path = "Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8008EA79F773DD386F1F335 /* Pods-LRMenuTestWithLGSideMenuController_StoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRMenuTestWithLGSideMenuController_StoryTests.debug.xcconfig"; path = "Target Support Files/Pods-LRMenuTestWithLGSideMenuController_StoryTests/Pods-LRMenuTestWithLGSideMenuController_StoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCFE911DC8CBBFB27BD5DBCA /* Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7986195D822093865D916CF /* Pods_LRMenuTestWithLGSideMenuController_Story.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF640A899D988F69C881133C /* Pods_LRMenuTestWithLGSideMenuController_StoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456CD21FCB66A39CB424D61B /* Pods_LRMenuTestWithLGSideMenuController_Story_LRMenuTestWithLGSideMenuController_StoryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F0650C4D2EA73623CBBA7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A0C3E63DCD3AAA6177BB3 /* Pods_LRMenuTestWithLGSideMenuController_Story.framework */,
+				2EE046D9E834A2101879358E /* Pods_LRMenuTestWithLGSideMenuController_Story_LRMenuTestWithLGSideMenuController_StoryUITests.framework */,
+				9B60DAA683F9F3CE816ECF93 /* Pods_LRMenuTestWithLGSideMenuController_StoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9717551927A4019A002A6E7B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				9717553E27A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryTests */,
 				9717554827A401A0002A6E7B /* LRMenuTestWithLGSideMenuController_StoryUITests */,
 				9717552327A4019A002A6E7B /* Products */,
+				9E37868F04D1384FC03FE990 /* Pods */,
+				09F0650C4D2EA73623CBBA7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +144,9 @@
 		9717552427A4019A002A6E7B /* LRMenuTestWithLGSideMenuController_Story */ = {
 			isa = PBXGroup;
 			children = (
+				9717555827A40242002A6E7B /* CustomView */,
+				9717555B27A40242002A6E7B /* HomeView */,
+				9760666D27A7DCF6000C0670 /* DetailView */,
 				9717552527A4019A002A6E7B /* AppDelegate.swift */,
 				9717552727A4019A002A6E7B /* SceneDelegate.swift */,
 				9717552927A4019A002A6E7B /* ViewController.swift */,
@@ -130,6 +176,48 @@
 			path = LRMenuTestWithLGSideMenuController_StoryUITests;
 			sourceTree = "<group>";
 		};
+		9717555827A40242002A6E7B /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				9717555927A40242002A6E7B /* TxtImgCell.swift */,
+				9717555A27A40242002A6E7B /* TxtImgCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		9717555B27A40242002A6E7B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9717555D27A40242002A6E7B /* SlideMenuController.swift */,
+				9717555E27A40242002A6E7B /* RootVC.swift */,
+				9717555C27A40242002A6E7B /* LeftMenuVC.swift */,
+				9717555F27A40242002A6E7B /* RightMenuVC.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		9760666D27A7DCF6000C0670 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9760667227A7E131000C0670 /* DetailVC.swift */,
+				9760667327A7E131000C0670 /* DetailVC.xib */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		9E37868F04D1384FC03FE990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2156DAC3E19F45E40C5C98E7 /* Pods-LRMenuTestWithLGSideMenuController_Story.debug.xcconfig */,
+				4EEF5D09B139BFAFA04BF952 /* Pods-LRMenuTestWithLGSideMenuController_Story.release.xcconfig */,
+				DCFE911DC8CBBFB27BD5DBCA /* Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.debug.xcconfig */,
+				B16D2C974E11F5D7622E326C /* Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.release.xcconfig */,
+				B8008EA79F773DD386F1F335 /* Pods-LRMenuTestWithLGSideMenuController_StoryTests.debug.xcconfig */,
+				3AE6218DECCFD2E77280F352 /* Pods-LRMenuTestWithLGSideMenuController_StoryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9717554F27A401A0002A6E7B /* Build configuration list for PBXNativeTarget "LRMenuTestWithLGSideMenuController_Story" */;
 			buildPhases = (
+				E569CAF8FF2F0B16AFDACA28 /* [CP] Check Pods Manifest.lock */,
 				9717551E27A4019A002A6E7B /* Sources */,
 				9717551F27A4019A002A6E7B /* Frameworks */,
 				9717552027A4019A002A6E7B /* Resources */,
+				0BEE1A4E4BBF9B95DDD2560C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9717555227A401A0002A6E7B /* Build configuration list for PBXNativeTarget "LRMenuTestWithLGSideMenuController_StoryTests" */;
 			buildPhases = (
+				A27A7B5751536F7C9CA94F10 /* [CP] Check Pods Manifest.lock */,
 				9717553727A401A0002A6E7B /* Sources */,
 				9717553827A401A0002A6E7B /* Frameworks */,
 				9717553927A401A0002A6E7B /* Resources */,
@@ -172,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9717555527A401A0002A6E7B /* Build configuration list for PBXNativeTarget "LRMenuTestWithLGSideMenuController_StoryUITests" */;
 			buildPhases = (
+				9DB757035D8BCD2963A933FD /* [CP] Check Pods Manifest.lock */,
 				9717554127A401A0002A6E7B /* Sources */,
 				9717554227A401A0002A6E7B /* Frameworks */,
 				9717554327A401A0002A6E7B /* Resources */,
+				CDE38D4E900EDDB9C3D8FFA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +327,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9717556427A40242002A6E7B /* TxtImgCell.xib in Resources */,
 				9717553527A4019F002A6E7B /* LaunchScreen.storyboard in Resources */,
 				9717553227A4019F002A6E7B /* Assets.xcassets in Resources */,
 				9717552D27A4019A002A6E7B /* Main.storyboard in Resources */,
+				9760667527A7E131000C0670 /* DetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +351,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BEE1A4E4BBF9B95DDD2560C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story/Pods-LRMenuTestWithLGSideMenuController_Story-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story/Pods-LRMenuTestWithLGSideMenuController_Story-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story/Pods-LRMenuTestWithLGSideMenuController_Story-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB757035D8BCD2963A933FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27A7B5751536F7C9CA94F10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LRMenuTestWithLGSideMenuController_StoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE38D4E900EDDB9C3D8FFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests/Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E569CAF8FF2F0B16AFDACA28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LRMenuTestWithLGSideMenuController_Story-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9717551E27A4019A002A6E7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9717552A27A4019A002A6E7B /* ViewController.swift in Sources */,
+				9717556827A40242002A6E7B /* RightMenuVC.swift in Sources */,
+				9717556627A40242002A6E7B /* SlideMenuController.swift in Sources */,
 				9717553027A4019A002A6E7B /* LRMenuTestWithLGSideMenuController_Story.xcdatamodeld in Sources */,
+				9717556527A40242002A6E7B /* LeftMenuVC.swift in Sources */,
+				9760667427A7E131000C0670 /* DetailVC.swift in Sources */,
+				9717556727A40242002A6E7B /* RootVC.swift in Sources */,
 				9717552627A4019A002A6E7B /* AppDelegate.swift in Sources */,
 				9717552827A4019A002A6E7B /* SceneDelegate.swift in Sources */,
+				9717556327A40242002A6E7B /* TxtImgCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +642,7 @@
 		};
 		9717555027A401A0002A6E7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2156DAC3E19F45E40C5C98E7 /* Pods-LRMenuTestWithLGSideMenuController_Story.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +671,7 @@
 		};
 		9717555127A401A0002A6E7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEF5D09B139BFAFA04BF952 /* Pods-LRMenuTestWithLGSideMenuController_Story.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +700,7 @@
 		};
 		9717555327A401A0002A6E7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8008EA79F773DD386F1F335 /* Pods-LRMenuTestWithLGSideMenuController_StoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +721,7 @@
 		};
 		9717555427A401A0002A6E7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE6218DECCFD2E77280F352 /* Pods-LRMenuTestWithLGSideMenuController_StoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +742,7 @@
 		};
 		9717555627A401A0002A6E7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCFE911DC8CBBFB27BD5DBCA /* Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +761,7 @@
 		};
 		9717555727A401A0002A6E7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16D2C974E11F5D7622E326C /* Pods-LRMenuTestWithLGSideMenuController_Story-LRMenuTestWithLGSideMenuController_StoryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
